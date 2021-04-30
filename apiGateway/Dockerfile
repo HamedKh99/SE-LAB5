@@ -10,4 +10,6 @@ COPY . .
 
 EXPOSE 8000
 
+EXPOSE 27017
+
 CMD ["npm", "run", "dev"]
